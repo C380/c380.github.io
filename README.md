@@ -1,2 +1,2 @@
-# c380.github.io
-The C380.center official website
+# C380.GitHub.IO
+The official website's soure code for [C380.center](https://C380.center) home
