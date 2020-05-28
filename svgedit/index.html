@@ -4,19 +4,20 @@
 
 <head>
     <meta charset="utf-8">
-    <title>title</title>
+    <title>SVG Editor</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link type="text/css" rel="stylesheet" src="./styles/editor.css">
+    <style>
+        html, dody, iframe#svgeditor {
+            padding: 0px;
+            margin: 0px;
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <!-- section `document.body` begins -->
-
 <body>
-    <header>
-        <h1>SVG Editor</h1>
-    </header>
-    <main>
-    	<iframe src="https://svg-edit.github.io/svgedit/editor/svg-editor.html?extension=">
-        </iframe>
-    </main>
+    <iframe id="svgeditor" src="https://svg-edit.github.io/svgedit/editor/svg-editor.html?extension="></iframe>
 </body>
 </html>
